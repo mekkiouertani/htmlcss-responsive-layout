@@ -89,13 +89,59 @@ body{
     align-items:center;
 }
 
+.gap-10{
+    gap: 10px;
+}
+
+/*************
+    generic - UTILITIES 
+*************/
+img{
+    display: inline-block;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
 /************************************************
     HEADER
  ************************************************/
 header{
     background-color: var(--color-secondary);
+    padding: 15px 20px;
+    color: white;
+}
+ /**nav**/
+ .bars-menu{
+    font-size: 1.5em;
+ }
+
+nav ul{
+    display: none;
 }
 
+ .btn-nav{
+    background-color: white;
+    color: var(--color-text);
+ }
+
+ /**nav: HOVER **/
+.bars-menu:hover nav ul{
+
+ }
 
  /************************************************
     MAIN
@@ -103,15 +149,15 @@ header{
  .even{
     background-color: var(--color-primary);
  }
- /**SECTION 1**/
+ /**section 1**/
 
- /**SECTION 2**/
+ /**section 2**/
 
- /**SECTION 3**/
+ /**section 3**/
 
- /**SECTION 4**/
+ /**section 4**/
 
- /**SECTION 5**/
+ /**section 5**/
 
  /**SECTION 6**/
 
@@ -122,4 +168,29 @@ header{
 footer{
     background-color: var(--color-text);
     color: white;
+}
+
+ /************************************************
+    MEDIA QUERY
+ ************************************************/
+
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .bars-menu{
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
 }
