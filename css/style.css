@@ -49,6 +49,10 @@ body{
     margin-bottom:50px;
 }
 
+.mrg{
+    margin: 15px;
+}
+
   /*padding*/
 .px-10{
     padding: 0 10px;
@@ -166,8 +170,8 @@ nav ul{
  }
 
  /**section 1 demo-application**/
-.card{
-    margin: 20px;
+
+ .card{
     border-radius: 10px;
     background-color: var(--color-tertiary);
 }
@@ -208,9 +212,20 @@ footer{
 
 @media screen and (min-width: 768px) {
     .card-wrapper{
-        
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
     }
 
+    .card{
+        width: calc(100% / 3 - 30px);
+    }
+
+    .card:first-child{
+        flex-basis: calc(65% - 21px)
+    }
+    
 }
 
 @media screen and (min-width: 1200px) {
