@@ -92,13 +92,17 @@ body{
 /************************************************
     HEADER
  ************************************************/
-
+header{
+    background-color: var(--color-secondary);
+}
 
 
  /************************************************
     MAIN
  ************************************************/
- 
+ .even{
+    background-color: var(--color-primary);
+ }
  /**SECTION 1**/
 
  /**SECTION 2**/
@@ -106,10 +110,16 @@ body{
  /**SECTION 3**/
 
  /**SECTION 4**/
- 
+
  /**SECTION 5**/
+
+ /**SECTION 6**/
 
 
  /************************************************
     FOOTER
  ************************************************/
+footer{
+    background-color: var(--color-text);
+    color: white;
+}
