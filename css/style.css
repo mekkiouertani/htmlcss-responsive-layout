@@ -135,6 +135,10 @@ a{
     color: var(--color-secondary);
 }
 
+.bg-secondary{
+    background-color: var(--color-tertiary);
+}
+
 /************************************************
     HEADER
  ************************************************/
@@ -173,10 +177,9 @@ nav ul{
 
  .card{
     border-radius: 10px;
-    background-color: var(--color-tertiary);
 }
 
-.text-card h3{
+.text-card h4{
     color: var(--color-secondary);
     margin-bottom: 20px;
     font-size: 1.5em;
@@ -188,7 +191,38 @@ nav ul{
     background-color: var(--color-secondary);
 }
  /**section 2 planning**/
+#planning{
+    padding: 50px 0;
+}
+#planning .card{
+    padding: 100px 0;
+}
+ #strategic-card{
+    color: white;
+}
 
+#strategic-card h4, h3{
+    font-size: 2em;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#strategic-card h4{
+    color: white;
+}
+
+#delopement-card{
+    background-color: white;
+    border-radius: 10%;
+}
+
+#delopement-card i{
+    display: inline-block;
+    background-color: var(--color-primary);
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 50%;
+}
  /**section 3 partners**/
 
  /**section 4 benefits**/
