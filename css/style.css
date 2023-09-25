@@ -21,6 +21,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.7;
 }
 
  /***margin***/
@@ -68,6 +69,9 @@ body{
 .p-10{
     padding: 10px;
 }
+.p-20{
+    padding: 20px;
+}
 
 /*************
     FLEX - UTILITIES 
@@ -97,7 +101,8 @@ body{
     generic - UTILITIES 
 *************/
 img{
-    display: inline-block;
+    width: 100%;
+    display: block;
 }
 
 ul li{
@@ -110,10 +115,20 @@ a{
 }
 
 .btn{
-    border-radius: 10px;
-    padding: 5px 20px;
+    border-radius: 20px;
+    padding: 5px 30px;
     font-weight: bold;
     display: inline-block;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.big-icon{
+    margin: 20px 0px;
+    font-size: 5em;
+    color: var(--color-secondary);
 }
 
 /************************************************
@@ -149,17 +164,34 @@ nav ul{
  .even{
     background-color: var(--color-primary);
  }
- /**section 1**/
 
- /**section 2**/
+ /**section 1 demo-application**/
+.card{
+    margin: 20px;
+    border-radius: 10px;
+    background-color: var(--color-tertiary);
+}
 
- /**section 3**/
+.text-card h3{
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
 
- /**section 4**/
+ .btn-appstore{
+    letter-spacing: 5px;
+    margin: 30px 0px;
+    background-color: var(--color-secondary);
+}
+ /**section 2 planning**/
 
- /**section 5**/
+ /**section 3 partners**/
 
- /**SECTION 6**/
+ /**section 4 benefits**/
+
+ /**section 5 about-us**/
+
+ /**SECTION 6 pricing**/
 
 
  /************************************************
@@ -175,7 +207,10 @@ footer{
  ************************************************/
 
 @media screen and (min-width: 768px) {
-  
+    .card-wrapper{
+        
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
