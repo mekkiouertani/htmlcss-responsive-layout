@@ -1,0 +1,115 @@
+/*************************************************
+    UTILITIES
+ *************************************************/
+ :root {
+	--color-primary: #9792e4;
+	--color-secondary: #0084fd;
+	--color-tertiary: #b5ddff;
+	--color-contrast: #fcc060;
+	--color-text: #424242;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+ /***margin***/
+ .mt20 {
+    margin-top:20px;
+}
+
+.mt30 {
+    margin-top:30px;
+}
+
+.mt50 {
+    margin-top:50px;
+}
+
+.mb20 {
+    margin-bottom:20px;
+}
+
+.mb30 {
+    margin-bottom:30px;
+}
+
+.mb50 {
+    margin-bottom:50px;
+}
+
+  /*padding*/
+.px-10{
+    padding: 0 10px;
+}
+
+.py-10{
+    padding: 10px 0;
+}
+
+.px-20{
+    padding: 0 20px;
+}
+
+.py-20{
+    padding: 20px 0;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+/*************
+    FLEX - UTILITIES 
+*************/
+.d-flex{
+    display:flex;
+} 
+
+.jf-between{
+    justify-content:space-between;
+}
+
+.f-center{
+    justify-content:center;
+    align-items:center;
+}
+
+.items-center{
+    align-items:center;
+}
+
+/************************************************
+    HEADER
+ ************************************************/
+
+
+
+ /************************************************
+    MAIN
+ ************************************************/
+ 
+ /**SECTION 1**/
+
+ /**SECTION 2**/
+
+ /**SECTION 3**/
+
+ /**SECTION 4**/
+ 
+ /**SECTION 5**/
+
+
+ /************************************************
+    FOOTER
+ ************************************************/
