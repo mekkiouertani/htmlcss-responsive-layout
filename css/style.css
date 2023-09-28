@@ -24,6 +24,11 @@ body{
     line-height: 1.7;
 }
 
+.container{
+    max-width: 98%;
+    margin: 0 auto;
+}
+
  /***margin***/
  .mt20 {
     margin-top:20px;
@@ -195,25 +200,27 @@ nav ul{
     padding: 50px 0;
 }
 #planning .card{
-    padding: 100px 0;
+    padding: 100px 0 50px 0px;
 }
  #strategic-card{
     color: white;
 }
 
-#strategic-card h4, h3{
+#strategic-card h3{
     font-size: 2em;
     text-align: center;
     margin: 50px 0;
 }
 
 #strategic-card h4{
+    font-size: 3em;
+    margin: 50px 0;
     color: white;
 }
 
 #delopement-card{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 50px;
 }
 
 #delopement-card i{
@@ -259,8 +266,20 @@ footer{
     .card:first-child{
         flex-basis: calc(65% - 21px)
     }
-    
-}
+
+    #planning .container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        
+    }
+
+    #strategic-card, #planning .card {
+        width: calc(100% - 30px)
+    }
+
+  
 
 @media screen and (min-width: 1200px) {
     .container{
@@ -277,4 +296,9 @@ footer{
         gap: 20px;
         align-items: center;
     }
+    #planning .container{
+        display: flex;
+        align-items: flex-end;
+    }
+
 }
