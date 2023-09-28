@@ -298,7 +298,19 @@ footer{
     }
     #planning .container{
         display: flex;
+        flex-direction: row;
         align-items: flex-end;
+        gap: 30px
     }
 
+    #strategic-card {
+        width: 70%
+    }
+    #planning .card{
+        width: 30%;
+    }
+
+   nav{
+        padding: 0px 15px;
+    }
 }
